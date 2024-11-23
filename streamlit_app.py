@@ -34,9 +34,10 @@ with open("app.css") as f:
 
 with st.container():
     # st.image("https://www.snowflake.com/wp-content/uploads/2023/11/Summit-24-Logo-horz-white-2.png")
-    # st.subheader("The World of Data, Apps and AI Collaboration")
-    st.subheader("Thank You For Joining Snowflake Summit 24!")
-    st.title("Save The Date For 2025")
+    st.title("Snowflake Summit 2025")
+    st.title("BUILD THE FUTURE TOGETHER WITH AI AND APPS")
+    # st.subheader("Thank You For Joining Snowflake Summit 24!")
+    # st.title("Save The Date For 2025")
     st.write("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
 
 st.header(f"{days} Days")
@@ -53,7 +54,8 @@ with st.container():
 st.markdown("___")
 spaces = "          "
 # st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
-st.caption(f"[Save The Date](https://www.snowflake.com/summit/save-the-date/)")
+st.caption(f"[Register Now](https://www.snowflake.com/summit/)")
+# st.caption(f"[Save The Date](https://www.snowflake.com/summit/save-the-date/)")
 st.caption(f"Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():
