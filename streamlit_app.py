@@ -33,9 +33,9 @@ with open("app.css") as f:
      st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 with st.container():
-    # st.image("https://www.snowflake.com/wp-content/uploads/2023/11/Summit-24-Logo-horz-white-2.png")
-    st.title("Snowflake Summit 2025")
-    st.title("BUILD THE FUTURE TOGETHER WITH AI AND APPS")
+    st.image("snowflake_summit_25.png")
+    # st.title("Snowflake Summit 2025")
+    st.subheader("BUILD THE FUTURE TOGETHER WITH AI AND APPS")
     # st.subheader("Thank You For Joining Snowflake Summit 24!")
     # st.title("Save The Date For 2025")
     st.write("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
