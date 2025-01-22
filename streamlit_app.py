@@ -35,25 +35,37 @@ with open("app.css") as f:
 with st.container():
     st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
-    st.subheader("BUILD THE FUTURE TOGETHER WITH AI AND APPS")
+    st.subheader("**BUILD THE FUTURE TOGETHER WITH AI AND APPS**")
     st.subheader("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
 
-st.header(f"{days} Days")
+##st.header(f"{days} Days")
+st.markdown("___")
+spaces = "          "
 
 with st.container():
-    col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment="center")
+    col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
     with col1:
         st.metric("Hours", hours)
     with col2:
+        st.metric("Days", days)
         st.metric("Mins", minutes)
     with col3:
         st.metric("Secs", seconds)
 
 st.markdown("___")
 spaces = "          "
-# st.caption(f"[Register Now],(https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
-st.link_button("REGISTER NOW","https://www.snowflake.com/summit/")
+##st.caption(f"[Register Now],(https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
+with st.container():
+    col1, col2, col3, col4, col5 = st.columns(5)
+    with col3:
+        center_button = st.link_button("REGISTER NOW","https://www.snowflake.com/summit/")
 
+st.subheader("WITNESS THE FUTURE OF DATA")
+st.subheader("AI AND APPS COME TO LIFE")
+st.markdown("Join fellow data and AI pioneers at Snowflake Summit 2025 in San Francisco to discover what data, AI and application collaboration can do for your organization. See how gen AI creates tangible business value, discover applications that  reinvent this new era of data gravity, and dive into the latest innovations across data architectures, ML, flexible programmability and more.")
+
+st.markdown("___")
+spaces = "          "
 st.caption(f"Originally Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():

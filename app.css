@@ -1,6 +1,6 @@
 /* metric values */
 .e1i5pmia3 {
-  font-size: 40px;
+  font-size: 42px;
   margin: auto;
   padding: 10px;
 }
@@ -11,7 +11,7 @@
 }
 
 div[data-testid = "stMetricValue"] {
-  text-align: justify;
+  text-align: center;
 }
 
 a[href ^= "https://www.snowflake.com/summit/"] {
@@ -46,8 +46,7 @@ div[data-testid = "stCaptionContainer"] {
 
 div[data-testid = "metric-container"] {
   border-style: solid;
-  border-color: #ffffff;
-  box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
+  border-color: #112f75;
   border-radius: 10px;
   color: #115675;
   font-weight: 800;
@@ -55,15 +54,14 @@ div[data-testid = "metric-container"] {
 
 div[data-testid = "stMetric"] {
   border-style: solid;
-  border-color: #ffffff;
-  box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
+  border-color: #112f75;
   border-radius: 10px;
   color: #115675;
   font-weight: 800;
 }
 
 div[data-testid = "metric-container"] p {
-  color: #ffffff;
+  color: #112f75;
 }
 
 h3#data-cloud-summit-25-countdown {
