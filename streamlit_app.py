@@ -35,7 +35,7 @@ with open("app.css") as f:
 with st.container():
     st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
-    st.subheader(":blue[BUILD THE FUTURE TOGETHER WITH AI AND APPS]")
+    st.subheader(":black[BUILD THE FUTURE TOGETHER WITH AI AND APPS]")
     st.subheader("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
 
 st.header(f"{days} Days")
@@ -52,7 +52,7 @@ with st.container():
 st.markdown("___")
 spaces = "          "
 # st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
-st.button(f"[Register Now](https://www.snowflake.com/summit/)")
+st.button(f"[REGISTER NOW](https://www.snowflake.com/summit/)")
 
 st.caption(f"Originally Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
