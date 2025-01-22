@@ -24,10 +24,10 @@ def dhms_from_seconds(seconds):
 	days, hours = divmod(hours, 24)
 	return (days, hours, minutes, seconds)
 
-data_cloud_summit_24_date = datetime.strptime('2025-06-02 08:00:00', '%Y-%m-%d %H:%M:%S')
+data_cloud_summit_25_date = datetime.strptime('2025-06-02 08:00:00', '%Y-%m-%d %H:%M:%S')
 to_day = datetime.now()
 
-days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(data_cloud_summit_24_date,to_day))
+days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(data_cloud_summit_25_date,to_day))
 
 with open("app.css") as f:
      st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -38,7 +38,7 @@ with st.container():
     st.subheader("BUILD THE FUTURE TOGETHER WITH AI AND APPS")
     # st.subheader("Thank You For Joining Snowflake Summit 24!")
     # st.title("Save The Date For 2025")
-    st.write("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
+    st.subheader("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
 
 st.header(f"{days} Days")
 
