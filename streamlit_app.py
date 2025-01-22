@@ -5,10 +5,10 @@ from datetime import datetime
 
 # Setup web page
 st.set_page_config(
-    page_title="Data Cloud Summit",
+    page_title="Snowflake AI Data Cloud Summit 2025",
     menu_items={
         "Get Help": "https://developers.snowflake.com",
-        "About": "The source code for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
+        "About": "The original source code for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
     },
 )
 
@@ -56,7 +56,7 @@ spaces = "          "
 # st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
 st.caption(f"[Register Now](https://www.snowflake.com/summit/)")
 # st.caption(f"[Save The Date](https://www.snowflake.com/summit/save-the-date/)")
-st.caption(f"Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
+st.caption(f"Originally Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():
     col1, col2, col3 = st.columns([3,3,1])
