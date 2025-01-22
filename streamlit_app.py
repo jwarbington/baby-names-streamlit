@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Setup web page
 st.set_page_config(
-    page_title="Snowflake AI Data Cloud Summit 2025",
+    page_title="Snowflake Summit 2025",
     menu_items={
         "Get Help": "https://developers.snowflake.com",
         "About": "The original source code for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
