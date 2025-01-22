@@ -46,7 +46,7 @@ div[data-testid = "stCaptionContainer"] {
 
 div[data-testid = "metric-container"] {
   border-style: solid;
-  border-color: #ff9f36;
+  border-color: #ffffff;
   box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
   border-radius: 10px;
   color: #115675;
@@ -55,7 +55,7 @@ div[data-testid = "metric-container"] {
 
 div[data-testid = "stMetric"] {
   border-style: solid;
-  border-color: #ff9f36;
+  border-color: #ffffff;
   box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
   border-radius: 10px;
   color: #115675;
@@ -66,7 +66,7 @@ div[data-testid = "metric-container"] p {
   color: #ffffff;
 }
 
-h3#data-cloud-summit-24-countdown {
+h3#data-cloud-summit-25-countdown {
   font-family: Lato-Bold,sans-serif;
   font-size: 40px;
   text-align: center;
@@ -74,7 +74,7 @@ h3#data-cloud-summit-24-countdown {
 
 /* days value */
 h2 span {
-  color: #115675;  
+  color: #112f75;  
   font-size: 80px;
   text-align: center;
 }
