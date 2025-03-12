@@ -2,6 +2,7 @@
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 from datetime import datetime
+import streamlit.components.v1 as components
 
 # Setup web page
 st.set_page_config(
@@ -63,6 +64,11 @@ with st.container():
 st.subheader("WITNESS THE FUTURE OF DATA")
 st.subheader("AI AND APPS COME TO LIFE")
 st.markdown("Join fellow data and AI pioneers at Snowflake Summit 2025 in San Francisco to discover what data, AI and application collaboration can do for your organization. See how gen AI creates tangible business value, discover applications that  reinvent this new era of data gravity, and dive into the latest innovations across data architectures, ML, flexible programmability and more.")
+
+st.markdown("___")
+spaces = "          "
+components.iframe("https://app.astrato.io/embed/wAU7WAd", height=400)
+
 
 st.markdown("___")
 spaces = "          "
