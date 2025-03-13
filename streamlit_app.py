@@ -4,8 +4,10 @@ from streamlit_autorefresh import st_autorefresh
 from datetime import datetime
 import streamlit.components.v1 as components
 
+
 # Setup web page
 st.set_page_config(
+   layout="wide",
     page_title="Baby Names Streamlit",
     menu_items={
         "Get Help": "https://streamlit.io/",
