@@ -1,9 +1,3 @@
-# Countdown to Snowflake AI Data Cloud Summit 25
+# Baby Names Streamlit app
 
-Learn more -- https://www.snowflake.com/summit/
-
-BUILD THE FUTURE TOGETHER WITH AI AND APPS
-
-San Francisco | June 2-5, 2025
-
-Join The World of Data, AI and Apps
+Explore common names over the decades to help pick a name for a baby
