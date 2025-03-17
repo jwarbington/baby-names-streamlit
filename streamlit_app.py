@@ -38,7 +38,7 @@ with open("app.css") as f:
 with st.container():
     # st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
-    st.subheader("**BABY WARBINGTON #3 COMING SOON**")
+    st.header("**BABY WARBINGTON #3 COMING SOON**")
     st.subheader("APRIL 4, 2025")
 
 ##st.header(f"{days} Days")
@@ -57,9 +57,10 @@ with st.container():
 
 st.markdown("___")
 spaces = "          "
-components.iframe("https://app.astrato.io/embed/wAU7WAd", width=1600, height=800)
+components.iframe("https://app.astrato.io/embed/4GYlDgZ", width=1600, height=1020)
 
 
 st.markdown("___")
-spaces = "          "
-st.caption(f"Originally Developed as a Snowflake Summit Countdown app by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
+spaces = "          " 
+st.markdown(f"Built using [Streamlit](https://streamlit.io/) , [Snowflake](https://www.snowflake.com/), and [Astrato](https://www.astrato.io/) ")
+st.image("https://astrato.io/wp-content/uploads/2023/08/Astrato-Logo_new.svg")
