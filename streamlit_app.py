@@ -4,7 +4,6 @@ from streamlit_autorefresh import st_autorefresh
 from datetime import datetime
 import streamlit.components.v1 as components
 
-
 # Setup web page
 st.set_page_config(
    layout="wide",
@@ -63,4 +62,3 @@ components.iframe("https://app.astrato.io/embed/4GYlDgZ", width=1600, height=102
 st.markdown("___")
 spaces = "          " 
 st.markdown(f"Built using [Streamlit](https://streamlit.io/) , [Snowflake](https://www.snowflake.com/), and [Astrato](https://www.astrato.io/) ")
-st.image("https://astrato.io/wp-content/uploads/2023/08/Astrato-Logo_new.svg")
