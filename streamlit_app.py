@@ -56,7 +56,7 @@ with st.container():
 
 st.markdown("___")
 spaces = "          "
-components.iframe("https://app.astrato.io/embed/4GYlDgZ", width=1600, height=1020)
+components.iframe("https://app.astrato.io/embed/xvf1vvI", width=1600, height=2100)
 
 
 st.markdown("___")
