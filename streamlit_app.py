@@ -47,16 +47,18 @@ spaces = "          "
 with st.container():
     col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
     with col1:
+        spaces = "          "
         st.metric("Hours", hours)
     with col2:
         st.metric("Days", days)
         st.metric("Mins", minutes)
     with col3:
+        spaces = "          "
         st.metric("Secs", seconds)
 
 st.markdown("___")
 spaces = "          "
-components.iframe("https://app.astrato.io/embed/xvf1vvI", width=1600, height=2100)
+components.iframe("https://app.astrato.io/embed/xvf1vvI", height=1000)
 
 
 st.markdown("___")
