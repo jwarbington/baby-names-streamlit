@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 # Setup web page
 st.set_page_config(
    layout="wide",
-    page_title="Baby Names Streamlit",
+    page_title="Baby Names Streamlit + Astrato",
     menu_items={
         "Get Help": "https://streamlit.io/",
         "About": "The original source code branched for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
@@ -48,16 +48,23 @@ with st.container():
     col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
     with col1:
         spaces = "          "
-        st.metric("Hours", hours)
     with col2:
         st.metric("Days", days)
-        st.metric("Mins", minutes)
     with col3:
         spaces = "          "
+
+with st.container():
+    col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
+    with col1:
+        st.metric("Hours", hours)
+    with col2:
+        st.metric("Mins", minutes)
+    with col3:
         st.metric("Secs", seconds)
 
 st.markdown("___")
 spaces = "          "
+# st.text("Astrato Analytics - Powered by Snowflake")
 components.iframe("https://app.astrato.io/embed/xvf1vvI", height=1000)
 
 
