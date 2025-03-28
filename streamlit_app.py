@@ -37,7 +37,7 @@ with open("app.css") as f:
 with st.container():
     # st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
-    st.header("**BABY WARBINGTON #3 COMING SOON**")
+    st.header("**BABY #3 COMING SOON**")
     st.subheader("APRIL 4, 2025")
 
 ##st.header(f"{days} Days")

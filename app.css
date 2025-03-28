@@ -20,7 +20,7 @@ a[href ^= "https://www.snowflake.com/summit/"] {
   color: #ffffff;
 }
 a[href ^= "https://www.snowflake.com/summit/"]:hover {
-  color: #115675;
+  color: #c5e8f8;
 }
 
 a[href ^= "https://twitter"] {
@@ -28,7 +28,7 @@ a[href ^= "https://twitter"] {
   text-decoration: none;
 }
 a[href ^= "https://twitter"]:hover {
-  color: #115675;
+  color: #bfe2f2;
 }
 
 a[href ^= "https://www.linkedin"] {
