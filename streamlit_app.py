@@ -45,7 +45,7 @@ st.markdown("___")
 spaces = "          "
 
 with st.container():
-    col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
+    col1, col2, col3 = st.columns(3, gap="small", vertical_alignment='bottom')
     with col1:
         spaces = "          "
     with col2:
@@ -54,7 +54,7 @@ with st.container():
         spaces = "          "
 
 with st.container():
-    col1, col2, col3 = st.columns(3, gap="medium", vertical_alignment='bottom')
+    col1, col2, col3 = st.columns(3, gap="small", vertical_alignment='bottom')
     with col1:
         st.metric("Hours", hours)
     with col2:
