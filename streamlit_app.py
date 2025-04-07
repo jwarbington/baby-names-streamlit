@@ -65,7 +65,7 @@ with st.container():
 st.markdown("___")
 spaces = "          "
 # st.text("Astrato Analytics - Powered by Snowflake")
-st.markdown("[![Astrato](astrato-logo.svg)](https://astrato.io)")
+st.image('astrato-logo.svg')
 components.iframe("https://app.astrato.io/embed/xvf1vvI", height=1000)
 
 st.markdown("___")
