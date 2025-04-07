@@ -26,7 +26,7 @@ def dhms_from_seconds(seconds):
 	days, hours = divmod(hours, 24)
 	return (days, hours, minutes, seconds)
 
-baby_due_date = datetime.strptime('2025-04-04 09:00:00', '%Y-%m-%d %H:%M:%S')
+baby_due_date = datetime.strptime('2025-04-10 08:00:00', '%Y-%m-%d %H:%M:%S')
 to_day = datetime.now()
 
 days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(baby_due_date,to_day))
@@ -38,7 +38,7 @@ with st.container():
     # st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
     st.header("**BABY #3 COMING SOON**")
-    st.subheader("APRIL 4, 2025")
+    st.subheader("APRIL 2025")
 
 ##st.header(f"{days} Days")
 st.markdown("___")
