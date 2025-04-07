@@ -14,7 +14,7 @@ st.set_page_config(
     },
 )
 
-count = st_autorefresh(interval=1000, limit=1000, key="babyduedatecounter")
+count = st_autorefresh(interval=60000, limit=120, key="babyduedatecounter")
 
 def date_diff_in_seconds(dt2, dt1):
   timedelta = dt2 - dt1
@@ -39,7 +39,8 @@ with st.container():
     # st.title("Snowflake Summit 2025")
     st.header("**BABY #3 COMING SOON**")
     st.subheader("APRIL 2025")
-
+    st.balloons()
+    
 ##st.header(f"{days} Days")
 st.markdown("___")
 spaces = "          "
@@ -49,22 +50,22 @@ with st.container():
     with col1:
         spaces = "          "
     with col2:
+        st.image('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRpZ3hseTZyNDQ0bTUwNHVzaHQxNHhtcjYyamVkdHhwZHk2emlucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDPuPAqI5rWCWXZp0f/giphy.gif')
         st.metric("Days", days)
     with col3:
         spaces = "          "
 
 with st.container():
-    col1, col2, col3 = st.columns(3, gap="small", vertical_alignment='bottom')
+    col1, col2 = st.columns(2, gap="small", vertical_alignment='bottom')
     with col1:
         st.metric("Hours", hours)
     with col2:
         st.metric("Mins", minutes)
-    with col3:
-        st.metric("Secs", seconds)
 
 st.markdown("___")
 spaces = "          "
 # st.text("Astrato Analytics - Powered by Snowflake")
+st.markdown("[![Astrato](https://astrato.io/wp-content/uploads/2023/08/Astrato-Logo_new.svg)](https://astrato.io)")
 components.iframe("https://app.astrato.io/embed/xvf1vvI", height=1000)
 
 
