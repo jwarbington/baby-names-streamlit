@@ -26,10 +26,10 @@ def dhms_from_seconds(seconds):
 	days, hours = divmod(hours, 24)
 	return (days, hours, minutes, seconds)
 
-baby_due_date = datetime.strptime('2025-04-10 08:00:00', '%Y-%m-%d %H:%M:%S')
+baby_due_date = datetime.strptime('2025-04-11 19:22:00', '%Y-%m-%d %H:%M:%S')
 to_day = datetime.now()
 
-days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(baby_due_date,to_day))
+days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(to_day,baby_due_date))
 
 with open("app.css") as f:
      st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -37,8 +37,8 @@ with open("app.css") as f:
 with st.container():
     # st.image("snowflake_summit_25.png")
     # st.title("Snowflake Summit 2025")
-    st.header("**BABY #3 COMING SOON**")
-    st.subheader("APRIL 2025")
+    st.header("**WELCOME BABY!**")
+    st.subheader("🎂 APRIL 2025 🎂")
     st.balloons()
     
 ##st.header(f"{days} Days")
@@ -50,7 +50,7 @@ with st.container():
     with col1:
         spaces = "          "
     with col2:
-        st.image('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRpZ3hseTZyNDQ0bTUwNHVzaHQxNHhtcjYyamVkdHhwZHk2emlucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDPuPAqI5rWCWXZp0f/giphy.gif')
+        #st.image('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRpZ3hseTZyNDQ0bTUwNHVzaHQxNHhtcjYyamVkdHhwZHk2emlucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDPuPAqI5rWCWXZp0f/giphy.gif')
         st.metric("Days", days)
     with col3:
         spaces = "          "
